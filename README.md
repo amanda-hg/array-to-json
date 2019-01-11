@@ -53,14 +53,12 @@ Input:
 const convert = require('array-to-json');
 
 let data = {
-    {
-        "code": 108007,
-        "prov": "FAY",
-        "hcode": "H100007",
-        "enable": 0,
-        "comment": "something comment"
-    }
-}
+            "code": 108007,
+            "prov": "FAY",
+            "hcode": "H100007",
+            "enable": 0,
+            "comment": "something comment"  
+            }
 const array = convert.jsonToArray(data);
 console.log(array);
 
@@ -80,14 +78,12 @@ Input:
 const convert = require('array-to-json');
 
 let data = {
-    {
-        "code": 108007,
-        "prov": "FAY",
-        "hcode": "H100007",
-        "enable": 0,
-        "comment": "something comment"
-    }
-}
+            "code": 108007,
+            "prov": "FAY",
+            "hcode": "H100007",
+            "enable": 0,
+            "comment": "something comment"  
+            }
 const array = convert.jsonKeysToArray(data);
 console.log(array);
 ```
@@ -102,14 +98,12 @@ Input:
 const convert = require('array-to-json');
 
 let data = {
-    {
-        "code": 108007,
-        "prov": "FAY",
-        "hcode": "H100007",
-        "enable": 0,
-        "comment": "something comment"
-    }
-}
+            "code": 108007,
+            "prov": "FAY",
+            "hcode": "H100007",
+            "enable": 0,
+            "comment": "something comment"  
+            }
 const array = convert.jsonValuesToArray(data);
 console.log(array);
 ```

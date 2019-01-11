@@ -1,6 +1,6 @@
 {
   "name": "array-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An awesome module that convert a data array in a json and viceverse",
   "main": "index.js",
   "scripts": {
