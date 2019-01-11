@@ -1,14 +1,14 @@
 const index = require('./index.js');
 
 let data = {
-            "code": "euh-108007",
-            "provider": "euh",
-            "hcode": "H100007",
-            "enable": 0,
-            "lock": 0,
-            "type": "H",
-            "comment": "comentado"
-            }
+    "code": 108007,
+    "prov": "FAY",
+    "hcode": "H100007",
+    "enable": 0,
+    "comment": "something comment"
+}
 
-const result = index.jsonKeysToArray(data);
+let array = [1,2,3,4,5];
+
+const result = index.jsonValuesToArray(data);
 console.log(result)
